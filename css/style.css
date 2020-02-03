@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+canvas{
+    box-shadow: 0 0 10px #333;
+    position: absolute;
+}
+
+#canvases{
+    margin:100px auto;
+    height: 568px;
+    width: 320px;
+}

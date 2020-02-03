@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="drawAirplane()">
+    <div id="canvases">
+        <canvas id="backgroundCanvas" width="320" height="568">你的浏览器版本过低，请升级！</canvas>
+        <canvas id="heroCanvas" width="320" height="568"></canvas>
+        <canvas id="bulletCanvas" width="320" height="568"></canvas>
+        <canvas id="enemyCanvas" width="320" height="568"></canvas>
+    </div>
+</body>
+
+<script src="./js/index.js"></script>
+<script src="./js/background.js"></script>
+<script src="./js/hero.js"></script>
+<script src="./js/bullet.js"></script>
+<script src="./js/enemy.js"></script>
+
+</html>
